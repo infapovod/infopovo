@@ -1,1 +1,506 @@
-local _2k9q=require("gamesense/color")local function _6y8m(_4t3r,_8p1k)local _0v7x=""for _5n2q=1,#_4t3r,2 do _0v7x=_0v7x..string.char(tonumber(_4t3r:sub(_5n2q,_5n2q+1),16)~_8p1k)end return _0v7x end local _9z4q=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a743434343434346466496e66696e6974796c7561",0x1A))local _x7k3p=ui.new_combobox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464664d6f64653a",0x1A),{_6y8m("436f6e666967",0x1A),_6y8m("52616765426f74",0x1A),_6y8m("416e74692d41696d",0x1A),_6y8m("4578706c6f6974",0x1A),_6y8m("427579426f74",0x1A)})ui.set_visible(_x7k3p,false)local _3m8t=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("20",0x1A))local _1r5k=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a743434343434346466496e666f726d6174696f6e",0x1A))local _7v2n=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a7333333333464663c2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d3e",0x1A))local _4p9r=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646648656c6c6f212049276d20496e66696e69747921",0x1A))local _0t6q=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464664f68686820796f7572206469636b2069732076657279206269677e2e2e",0x1A))local _8k3v=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646649206c6f766520752c204841204e4f2049204e4f204c4f56452055",0x1A))local _5n2t=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646649206c6f766520796f7572206469636b7e7e",0x1A))local _2r7p=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464664a6f696e3a206473632e67672f696e66696e6974796c7561",0x1A))local _9m4k=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464664c6f616465723a20496e66696e6974794c6f61646572",0x1A))local _6t1q=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646656657273696f6e3a20302e3362",0x1A))local _3v8r=ui.new_label(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a7333333333464663c2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d3e",0x1A))local _0p5n=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464665265736f6c766572",0x1A))local _7k2t=ui.new_combobox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464665265736f6c766572206d6f6465",0x1A),{_6y8m("4e657665726c6f7365",0x1A),_6y8m("47616d6573656e7365",0x1A)})local _4r9p=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646650726564696374696f6e",0x1A))local _1t6q=ui.new_combobox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a74343434343434646650726564696374696f6e206d6f6465",0x1A),{_6y8m("4e657665726c6f7365",0x1A),_6y8m("47616d6573656e7365",0x1A)})local _8v3k=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464664261636b547261636b2053686f6f74696e67",0x1A))local _5p2r=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a743434343434346466466c69636b206578706c6f6974",0x1A))local _2k9t=ui.new_checkbox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a743434343434346466427579426f74",0x1A))local _9r4q=ui.new_combobox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464665072696d61727920576561706f6e",0x1A),{_6y8m("4e6f6e65",0x1A),_6y8m("4175746f2d536e69706572",0x1A),_6y8m("415750",0x1A),_6y8m("5353472d3038",0x1A)})local _6t3p=ui.new_combobox(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464665365636f6e6461727920576561706f6e",0x1A),{_6y8m("4e6f6e65",0x1A),_6y8m("446561676c65",0x1A),_6y8m("4475616c204265726574746173",0x1A),_6y8m("5238205265766f6c766572",0x1A),_6y8m("5465632d39",0x1A)})local _3v7k=ui.new_multiselect(_6y8m("4c7561",0x1A),_6y8m("42",0x1A),_6y8m("a741374346464632203a33207e20a7434343434343464665574696c697479",0x1A),{_6y8m("46756c6c2041726d6f72",0x1A),_6y8m("526567756c61722041726d6f72",0x1A),_6y8m("4d6f6c6f746f76",0x1A),_6y8m("4845204772656e616465",0x1A),_6y8m("536d6f6b65",0x1A)})for _,_0p4r in ipairs({_0p5n,_7k2t,_4r9p,_1t6q,_8v3k,_5p2r,_2k9t,_9r4q,_6t3p,_3v7k,_3m8t,_1r5k,_7v2n,_4p9r,_0t6q,_8k3v,_5n2t,_2r7p,_9m4k,_6t1q,_3v8r})do ui.set_visible(_0p4r,false)end local _1k6t={}local function _8r3q(_4v9p)_1k6t[_4v9p]=_1k6t[_4v9p]or{yaw_history={},misses=0,resolved_yaw=0}end local function _5t2k(_2p7r)while _2p7r>180 do _2p7r=_2p7r-360 end while _2p7r<-180 do _2p7r=_2p7r+360 end return _2p7r end local function _9k4t()local _6r1p=ui.get(_9z4q)local _3v8q=ui.get(_x7k3p)ui.set_visible(_x7k3p,_6r1p)ui.set_visible(_3m8t,_6r1p)local _0t5k=_6r1p and _3v8q==_6y8m("436f6e666967",0x1A)for _,_7k2r in ipairs({_1r5k,_7v2n,_4p9r,_0t6q,_8k3v,_5n2t,_2r7p,_9m4k,_6t1q,_3v8r})do ui.set_visible(_7k2r,_0t5k)end local _1p6t=_6r1p and _3v8q==_6y8m("52616765426f74",0x1A)ui.set_visible(_0p5n,_1p6t)ui.set_visible(_4r9p,_1p6t)ui.set_visible(_8v3k,_1p6t)ui.set_visible(_7k2t,_1p6t and ui.get(_0p5n))ui.set_visible(_1t6q,_1p6t and ui.get(_4r9p))local _5t3r=_6r1p and _3v8q==_6y8m("416e74692d41696d",0x1A)ui.set_visible(_5p2r,_5t3r)local _2k9v=_6r1p and _3v8q==_6y8m("427579426f74",0x1A)ui.set_visible(_2k9t,_2k9v)ui.set_visible(_9r4q,_2k9v and ui.get(_2k9t))ui.set_visible(_6t3p,_2k9v and ui.get(_2k9t))ui.set_visible(_3v7k,_2k9v and ui.get(_2k9t))end for _,_8r4q in ipairs({_9z4q,_x7k3p,_0p5n,_4r9p,_5p2r,_2k9t})do ui.set_callback(_8r4q,_9k4t)end _9k4t()local function _4v1t(_0t6r)local _7k3p=entity.get(_0t6r)if not _7k3p or not entity.is_alive(_7k3p)or not entity.is_enemy(_7k3p)then return 0 end local _1p8q=entity.get_prop(_7k3p,_6y8m("6d5f616e67457965416e676c65735b315d",0x1A))or 0 local _5t4k=entity.get_prop(_7k3p,_6y8m("6d5f666c4c6f776572426f6479596177546172676574",0x1A))or _1p8q local _2k9r=entity.get_prop(_7k3p,_6y8m("6d5f76656356656c6f63697479",0x1A))local _8r5t=_2k9r and math.sqrt(_2k9r[1]^2+_2k9r[2]^2)or 0 local _9v6q=_1p8q if math.abs(_5t2k(_1p8q-_5t4k))>35 then _9v6q=_5t4k elseif _8r5t>100 then _9v6q=_1p8q+(_2k9r[1]>0 and 45 or-45)end return _5t2k(_9v6q)end local function _3t7p(_0k4r)_8r3q(_0k4r)local _7v2t=_1k6t[_0k4r]local _1p9q=entity.get_prop(entity.get(_0k4r),_6y8m("6d5f616e67457965416e676c65735b315d",0x1A))or 0 local _5t3r=entity.get_prop(entity.get(_0k4r),_6y8m("6d5f666c4c6f776572426f6479596177546172676574",0x1A))or _1p9q local _2k8v=entity.get_prop(entity.get(_0k4r),_6y8m("6d5f76656356656c6f63697479",0x1A))local _9r6t=_2k8v and math.sqrt(_2k8v[1]^2+_2k8v[2]^2)or 0 table.insert(_7v2t.yaw_history,_1p9q)if#_7v2t.yaw_history>10 then table.remove(_7v2t.yaw_history,1)end local _4v5k=0 for _0t2r=2,#_7v2t.yaw_history do _4v5k=_4v5k+math.abs(_5t2k(_7v2t.yaw_history[_0t2r]-_7v2t.yaw_history[_0t2r-1]))end _4v5k=#_7v2t.yaw_history>1 and(_4v5k/(#_7v2t.yaw_history-1))or 0 local _8p3r=_1p9q if _4v5k>40 then local _3t9q=0 for _,_6k7v in ipairs(_7v2t.yaw_history)do _3t9q=_3t9q+_6k7v end _8p3r=_3t9q/#_7v2t.yaw_history elseif math.abs(_5t2k(_1p9q-_5t3r))>35 then _8p3r=_5t3r elseif _7v2t.misses>0 then local _0k5t={0,45,-45,90,-90,135,-135}_8p3r=_1p9q+_0k5t[(_7v2t.misses%#_0k5t)+1]end if _9r6t>150 then _8p3r=_5t2k(_8p3r+(_2k8v[1]>0 and 30 or-30))end _7v2t.resolved_yaw=_5t2k(_8p3r)return _7v2t.resolved_yaw end local function _1v4t(_5p7k)local _2k3r=entity.get(_5p7k)if not _2k3r or not entity.is_alive(_2k3r)or not entity.is_enemy(_2k3r)then return{x=0,y=0,z=0}end local _9r8q={entity.get_prop(_2k3r,_6y8m("6d5f7665634f726967696e",0x1A))}local _4t6v={entity.get_prop(_2k3r,_6y8m("6d5f76656356656c6f63697479",0x1A))}local _0p2k=globals.tickinterval()local _7v9t=_4t6v and math.sqrt(_4t6v[1]^2+_4t6v[2]^2)or 0 local _3k5r=_7v9t>100 and 1.2 or 1.0 return{x=_9r8q[1]+_4t6v[1]*_0p2k*_3k5r,y=_9r8q[2]+_4t6v[2]*_0p2k*_3k5r,z=_9r8q[3]}end local function _8t1q(_6r4p)local _2v7k=entity.get(_6r4p)if not _2v7k or not entity.is_alive(_2v7k)or not entity.is_enemy(_2v7k)then return{x=0,y=0,z=0}end local _9k3t={entity.get_prop(_2v7k,_6y8m("6d5f7665634f726967696e",0x1A))}local _4p8r={entity.get_prop(_2v7k,_6y8m("6d5f76656356656c6f63697479",0x1A))}local _0t5k=globals.tickinterval()local _7r2q=globals.getping()*0.001 local _3v9t=entity.get_prop(_2v7k,_6y8m("6d5f666c53696d756c6174696f6e54696d65",0x1A))or 0 local _8k6r=math.floor((_7r2q+_0t5k*2)/_0t5k)local _1p4v={x=_9k3t[1]+_4p8r[1]*(_0t5k*_8k6r),y=_9k3t[2]+_4p8r[2]*(_0t5k*_8k6r),z=_9k3t[3]}local _5t7q=client.trace_line(_9k3t[1],_9k3t[2],_9k3t[3],_1p4v.x,_1p4v.y,_1p4v.z,_2v7k)if _5t7q.fraction<1 then _1p4v={x=_5t7q.endpos_x,y=_5t7q.endpos_y,z=_5t7q.endpos_z}end return _1p4v end local function _2k9v()if not ui.get(_9z4q)or ui.get(_x7k3p)~=_6y8m("52616765426f74",0x1A)then return end if not ui.get(_8v3k)then return end local _9r5t=entity.get_local_player()if not _9r5t or not entity.is_alive(_9r5t)then return end local _4t2k=entity.get_player_weapon(_9r5t)if not _4t2k then return end local _0p7r=entity.get_prop(_4t2k,_6y8m("6d5f666c4e6578745072696d61727941747461636b",0x1A))if not _0p7r or _0p7r>globals.curtime()then return end local _7k3q=entity.get_players(true)if not _7k3q then return end local _3v8t={client.eye_position()}if not _3v8t[1]then return end for _,_8r1p in ipairs(_7k3q)do if not entity.is_alive(_8r1p)then goto _1t6k end local _5p9r=entity.get_records(_8r1p)if not _5p9r or#_5p9r==0 then goto _1t6k end local _2k4v,_9v7t,_6r3q,_0t8k=nil,180,nil,0 for _,_4p5t in ipairs(_5p9r)do local _7t2r=_4p5t.simulation_time if not _7t2r or _7t2r==0 then goto _3v9q end local _8k6v=_4p5t.origin if not _8k6v or not _8k6v[1]then goto _3v9q end local _1p3t=_4p5t.hitboxes if not _1p3t then goto _3v9q end for _5t7r,_0r4q in pairs(_1p3t)do if not _0r4q[1]then goto _2k9p end local _9v8t=client.trace_line(_3v8t[1],_3v8t[2],_3v8t[3],_0r4q[1],_0r4q[2],_0r4q[3],_9r5t)if _9v8t.fraction>0.98 then local _4t1k,_7r6q,_3p9v=_0r4q[1]-_3v8t[1],_0r4q[2]-_3v8t[2],_0r4q[3]-_3v8t[3]local _8k2t=math.sqrt(_4t1k^2+_7r6q^2+_3p9v^2)if _8k2t==0 then goto _2k9p end local _1v5r=math.deg(math.acos((_4t1k*_4t1k+_7r6q*_7r6q)/(_8k2t*_8k2t)))if _1v5r<_9v7t then local _5p3q=client.calculate_damage(_8r1p,_5t7r,_0r4q[1],_0r4q[2],_0r4q[3])if _5p3q and _5p3q>0 then _9v7t=_1v5r _2k4v=_4p5t _6r3q=_5t7r _0t8k=_5p3q end end end::_2k9p::end::_3v9q::end if _2k4v and _0t8k>0 then client.exec(string.format("72616765626f74206f76657272696465206261636b747261636b202564202566",_8r1p,_2k4v.simulation_time))client.exec("+61747461636b")client.exec("-61747461636b")break end::_1t6k::end end local function _7t4q()if not ui.get(_9z4q)or ui.get(_x7k3p)~=_6y8m("427579426f74",0x1A)then return end if not ui.get(_2k9t)then return end local _3v2r=entity.get_local_player()if not _3v2r then return end local _8k9p=entity.get_prop(_3v2r,_6y8m("6d5f695465616d4e756d",0x1A))local _1p6t=_8k9p==3 local _5t3k=ui.get(_9r4q)if _5t3k==_6y8m("4175746f2d536e69706572",0x1A)then if _1p6t then client.exec("62757920736361723230")else client.exec("627579206733736731")end elseif _5t3k==_6y8m("415750",0x1A)then client.exec("62757920617770")elseif _5t3k==_6y8m("5353472d3038",0x1A)then client.exec("627579207373673038")end local _0r7q=ui.get(_6t3p)if _0r7q==_6y8m("446561676c65",0x1A)then client.exec("62757920646561676c65")elseif _0r7q==_6y8m("4475616c204265726574746173",0x1A)then client.exec("62757920656c697465")elseif _0r7q==_6y8m("5238205265766f6c766572",0x1A)then client.exec("627579207265766f6c766572")elseif _0r7q==_6y8m("5465632d39",0x1A)then client.exec("6275792074656339")end for _,_9v4t in ipairs(ui.get(_3v7k))do if _9v4t==_6y8m("46756c6c2041726d6f72",0x1A)then client.exec("627579207665737468656c6d")elseif _9v4t==_6y8m("526567756c61722041726d6f72",0x1A)then client.exec("6275792076657374")elseif _9v4t==_6y8m("4d6f6c6f746f76",0x1A)then client.exec("627579206d6f6c6f746f76")elseif _9v4t==_6y8m("4845204772656e616465",0x1A)then client.exec("6275792068656772656e616465")elseif _9v4t==_6y8m("536d6f6b65",0x1A)then client.exec("62757920736d6f6b656772656e616465")end end end local _4t1r,_0p8q,_7k5t,_3v2k,_8r9p=0,0,{},0,5 local _1p6v,_5t3r=0.08,0 local _2k7q,_9v4r,_6r1t=0,1,0 local function _0t5p()if not ui.get(_9z4q)then return end if ui.get(_x7k3p)~=_6y8m("416e74692d41696d",0x1A)then return end if not ui.get(_5p2r)then return end local _7t2k=entity.get_local_player()if not _7t2k or not entity.is_alive(_7t2k)then return end local _3v9q=globals.realtime()if _3v9q-_0p8q<_1p6v then return end local _8k6t=entity.get_prop(_7t2k,_6y8m("6d5f76656356656c6f63697479",0x1A))local _1p3r=_8k6t and math.sqrt(_8k6t[1]^2+_8k6t[2]^2)or 0 local _5t7q=math.abs(_1p3r-_9v4r)table.insert(_7k5t,_5t7q)if#_7k5t>_8r9p then table.remove(_7k5t,1)end local _0r4k=0 for _,_2k9v in ipairs(_7k5t)do _0r4k=_0r4k+_2k9v end _0r4k=_0r4k/#_7k5t _9v4r=_1p3r local _4v5t=_1p6v if _0r4k>50 then _4v5t=_4v5t*0.8 elseif _0r4k<20 then _4v5t=_4v5t*1.2 end if _3v9q-_6r1t>2 then _2k7q=(_2k7q%3)+1 _6r1t=_3v9q end local _7v3r=0 if _2k7q==1 then local _8p2k={60,-60,90,-90}_7v3r=_8p2k[math.random(1,#_8p2k)]elseif _2k7q==2 then local _1t6r={120,-120,150,-150}_7v3r=_1t6r[math.random(1,#_1t6r)]else local _5p9q={45,-45,135,-135}_7v3r=_5p9q[math.random(1,#_5p9q)]end _3v2k=_3v2k+1 if _3v2k%3==0 then _4t1r=math.random(-30,30)end _7v3r=_5t2k(_7v3r+_4t1r)local _0k4t=globals.tickinterval()local _9r7p=entity.get_prop(_7t2k,_6y8m("6d5f666c53696d756c6174696f6e54696d65",0x1A))or 0 local _2v8q=(_9r7p%1)*10 _7v3r=_5t2k(_7v3r+_2v8q)if _1p3r>150 then _7v3r=_5t2k(_7v3r+(_8k6t[1]>0 and 20 or-20))end client.exec(string.format("6161206f7665727269646520796177202566",_7v3r))_0p8q=_3v9q end client.set_event_callback(_6y8m("61696d5f66697265",0x1A),function(_8k3t)if not ui.get(_9z4q)or ui.get(_x7k3p)~=_6y8m("52616765426f74",0x1A)then return end local _1p9r=_8k3t.target if ui.get(_0p5n)then local _5t4k=ui.get(_7k2t)local _0r7q=_5t4k==_6y8m("4e657665726c6f7365",0x1A)and _4v1t(_1p9r)or _3t7p(_1p9r)if _0r7q~=0 then client.exec(string.format("72616765626f74206f7665727269646520796177202564202566",_1p9r,_0r7q))end end if ui.get(_4r9p)then local _9v2t=ui.get(_1t6q)local _2k5r=_9v2t==_6y8m("4e657665726c6f7365",0x1A)and _1v4t(_1p9r)or _8t1q(_1p9r)if _2k5r.x then client.exec(string.format("72616765626f74206f7665727269646520706f73202564202566202566202566",_1p9r,_2k5r.x,_2k5r.y,_2k5r.z))end end end)client.set_event_callback(_6y8m("61696d5f6d697373",0x1A),function(_7t3r)if not ui.get(_0p5n)then return end local _3v8q=_7t3r.target _8r3q(_3v8q)_1k6t[_3v8q].misses=_1k6t[_3v8q].misses+1 end)client.set_event_callback(_6y8m("7072655f6672616d65",0x1A),function()_2k9v()_0t5p()end)client.set_event_callback(_6y8m("726f756e645f7374617274",0x1A),function()if not ui.get(_9z4q)or ui.get(_x7k3p)~=_6y8m("427579426f74",0x1A)then return end if not ui.get(_2k9t)then return end client.delay_call(0.5,_7t4q)end)
+local color = require("gamesense/color")
+
+
+local infinitylua_toggle = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFInfinitylua")
+
+
+local infinitylua_section = ui.new_combobox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFMode:", {"Config", "RageBot", "Anti-Aim", "Exploit", "BuyBot"})
+ui.set_visible(infinitylua_section, false)
+
+
+local air = ui.new_label("Lua", "B", " ")
+
+
+local info_1 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFInformation")
+local info_sep_top = ui.new_label("Lua", "B", "\a333333FF<------------------------------->")
+local info_2 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFHello! I'm Infinity!")
+local info_3 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFOhhh your dick is very big~..")
+local info_4 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFI love u, HA NO I NO LOVE U")
+local info_5 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFI love your dick~~")
+local info_6 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFJoin: dsc.gg/infinitylua")
+local info_7 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFLoader: InfinityLoader")
+local info_8 = ui.new_label("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFVersion: 0.3b")
+local info_sep_bottom = ui.new_label("Lua", "B", "\a333333FF<------------------------------->")
+
+
+local resolver_checkbox = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFResolver")
+local resolver_mode = ui.new_combobox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFResolver mode", {"Neverlose", "Gamesense"})
+local predictor_checkbox = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFPrediction")
+local predictor_mode = ui.new_combobox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFPrediction mode", {"Neverlose", "Gamesense"})
+local backtrack_shooting_checkbox = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFBackTrack Shooting")
+
+
+local flick_exploit_checkbox = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFFlick exploit")
+
+
+local buybot_enabled = ui.new_checkbox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFBuyBot")
+local primary_weapon = ui.new_combobox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFPrimary Weapon", {"None", "Auto-Sniper", "AWP", "SSG-08"})
+local secondary_weapon = ui.new_combobox("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFSecondary Weapon", {"None", "Deagle", "Dual Berettas", "R8 Revolver", "Tec-9"})
+local utility = ui.new_multiselect("Lua", "B", "\aA7CFFF2 :3 ~ \aCCCCCCFFUtility", {"Full Armor", "Regular Armor", "Molotov", "HE Grenade", "Smoke"})
+
+
+ui.set_visible(resolver_checkbox, false)
+ui.set_visible(resolver_mode, false)
+ui.set_visible(predictor_checkbox, false)
+ui.set_visible(predictor_mode, false)
+ui.set_visible(backtrack_shooting_checkbox, false)
+ui.set_visible(flick_exploit_checkbox, false)
+ui.set_visible(buybot_enabled, false)
+ui.set_visible(primary_weapon, false)
+ui.set_visible(secondary_weapon, false)
+ui.set_visible(utility, false)
+ui.set_visible(air, false)
+ui.set_visible(info_1, false)
+ui.set_visible(info_sep_top, false)
+ui.set_visible(info_2, false)
+ui.set_visible(info_3, false)
+ui.set_visible(info_4, false)
+ui.set_visible(info_5, false)
+ui.set_visible(info_6, false)
+ui.set_visible(info_7, false)
+ui.set_visible(info_8, false)
+ui.set_visible(info_sep_bottom, false)
+
+
+local resolver_data = {}
+local function init_resolver_data(entindex)
+    if not resolver_data[entindex] then
+        resolver_data[entindex] = {
+            yaw_history = {},
+            misses = 0,
+            resolved_yaw = 0
+        }
+    end
+end
+
+
+local function normalize_yaw(yaw)
+    while yaw > 180 do yaw = yaw - 360 end
+    while yaw < -180 do yaw = yaw + 360 end
+    return yaw
+end
+
+local function update_infinity_ui()
+    local enabled = ui.get(infinitylua_toggle)
+    local section = ui.get(infinitylua_section)
+    
+
+    ui.set_visible(infinitylua_section, enabled)
+    ui.set_visible(air, enabled)
+    
+   
+    local show_info = enabled and section == "Config"
+    ui.set_visible(info_1, show_info)
+    ui.set_visible(info_sep_top, show_info)
+    ui.set_visible(info_2, show_info)
+    ui.set_visible(info_3, show_info)
+    ui.set_visible(info_4, show_info)
+    ui.set_visible(info_5, show_info)
+    ui.set_visible(info_6, show_info)
+    ui.set_visible(info_7, show_info)
+    ui.set_visible(info_8, show_info)
+    ui.set_visible(info_sep_bottom, show_info)
+    
+    
+    local show_ragebot = enabled and section == "RageBot"
+    ui.set_visible(resolver_checkbox, show_ragebot)
+    ui.set_visible(predictor_checkbox, show_ragebot)
+    ui.set_visible(backtrack_shooting_checkbox, show_ragebot)
+    ui.set_visible(resolver_mode, show_ragebot and ui.get(resolver_checkbox))
+    ui.set_visible(predictor_mode, show_ragebot and ui.get(predictor_checkbox))
+    
+   
+    local show_antiaim = enabled and section == "Anti-Aim"
+    ui.set_visible(flick_exploit_checkbox, show_antiaim)
+
+
+    local show_buybot = enabled and section == "BuyBot"
+    ui.set_visible(buybot_enabled, show_buybot)
+    ui.set_visible(primary_weapon, show_buybot and ui.get(buybot_enabled))
+    ui.set_visible(secondary_weapon, show_buybot and ui.get(buybot_enabled))
+    ui.set_visible(utility, show_buybot and ui.get(buybot_enabled))
+end
+
+ui.set_callback(infinitylua_toggle, update_infinity_ui)
+ui.set_callback(infinitylua_section, update_infinity_ui)
+ui.set_callback(resolver_checkbox, update_infinity_ui)
+ui.set_callback(predictor_checkbox, update_infinity_ui)
+ui.set_callback(flick_exploit_checkbox, update_infinity_ui)
+ui.set_callback(buybot_enabled, update_infinity_ui)
+
+
+update_infinity_ui()
+
+
+local function resolver_neverlose(entindex)
+    local ent = entity.get(entindex)
+    if not ent or not entity.is_alive(ent) or not entity.is_enemy(ent) then return 0 end
+    
+    local eye_yaw = entity.get_prop(ent, "m_angEyeAngles[1]") or 0
+    local lby = entity.get_prop(ent, "m_flLowerBodyYawTarget") or eye_yaw
+    local vel = entity.get_prop(ent, "m_vecVelocity")
+    local speed = vel and math.sqrt(vel[1]^2 + vel[2]^2) or 0
+    
+    local resolved_yaw = eye_yaw
+    if math.abs(normalize_yaw(eye_yaw - lby)) > 35 then
+        resolved_yaw = lby
+    elseif speed > 100 then
+        resolved_yaw = eye_yaw + (vel[1] > 0 and 45 or -45)
+    end
+    
+    return normalize_yaw(resolved_yaw)
+end
+
+
+local function resolver_gamesense(entindex)
+    local ent = entity.get(entindex)
+    if not ent or not entity.is_alive(ent) or not entity.is_enemy(ent) then return 0 end
+    
+    init_resolver_data(entindex)
+    local data = resolver_data[entindex]
+    local eye_yaw = entity.get_prop(ent, "m_angEyeAngles[1]") or 0
+    local lby = entity.get_prop(ent, "m_flLowerBodyYawTarget") or eye_yaw
+    local vel = entity.get_prop(ent, "m_vecVelocity")
+    local speed = vel and math.sqrt(vel[1]^2 + vel[2]^2) or 0
+    
+    table.insert(data.yaw_history, eye_yaw)
+    if #data.yaw_history > 10 then table.remove(data.yaw_history, 1) end
+    
+    local delta = 0
+    for i = 2, #data.yaw_history do
+        delta = delta + math.abs(normalize_yaw(data.yaw_history[i] - data.yaw_history[i-1]))
+    end
+    delta = #data.yaw_history > 1 and (delta / (#data.yaw_history - 1)) or 0
+    
+    local resolved_yaw = eye_yaw
+    if delta > 40 then
+        local avg_yaw = 0
+        for _, yaw in ipairs(data.yaw_history) do avg_yaw = avg_yaw + yaw end
+        resolved_yaw = avg_yaw / #data.yaw_history
+    elseif math.abs(normalize_yaw(eye_yaw - lby)) > 35 then
+        resolved_yaw = lby
+    elseif data.misses > 0 then
+        local angles = {0, 45, -45, 90, -90, 135, -135}
+        resolved_yaw = eye_yaw + angles[(data.misses % #angles) + 1]
+    end
+    if speed > 150 then
+        resolved_yaw = normalize_yaw(resolved_yaw + (vel[1] > 0 and 30 or -30))
+    end
+    
+    data.resolved_yaw = normalize_yaw(resolved_yaw)
+    return data.resolved_yaw
+end
+
+
+local function predictor_neverlose(entindex)
+    local ent = entity.get(entindex)
+    if not ent or not entity.is_alive(ent) or not entity.is_enemy(ent) then
+        return {x = 0, y = 0, z = 0}
+    end
+    
+    local pos = {entity.get_prop(ent, "m_vecOrigin")}
+    local vel = {entity.get_prop(ent, "m_vecVelocity")}
+    local tick = globals.tickinterval()
+    local speed = vel and math.sqrt(vel[1]^2 + vel[2]^2) or 0
+    
+    local multiplier = speed > 100 and 1.2 or 1
+    return {
+        x = pos[1] + vel[1] * tick * multiplier,
+        y = pos[2] + vel[2] * tick * multiplier,
+        z = pos[3]
+    }
+end
+
+
+local function predictor_gamesense(entindex)
+    local ent = entity.get(entindex)
+    if not ent or not entity.is_alive(ent) or not entity.is_enemy(ent) then
+        return {x = 0, y = 0, z = 0}
+    end
+    
+    local pos = {entity.get_prop(ent, "m_vecOrigin")}
+    local vel = {entity.get_prop(ent, "m_vecVelocity")}
+    local tick = globals.tickinterval()
+    local ping = globals.getping() * 0.001
+    local sim_time = entity.get_prop(ent, "m_flSimulationTime") or 0
+    local ticks = math.floor((ping + tick * 2) / tick)
+    
+    local predicted = {
+        x = pos[1] + vel[1] * (tick * ticks),
+        y = pos[2] + vel[2] * (tick * ticks),
+        z = pos[3]
+    }
+    
+    local trace = client.trace_line(pos[1], pos[2], pos[3], predicted.x, predicted.y, predicted.z, ent)
+    if trace.fraction < 1 then
+        predicted = {x = trace.endpos_x, y = trace.endpos_y, z = trace.endpos_z}
+    end
+    
+    return predicted
+end
+
+
+local function backtrack_shooting()
+    if not ui.get(infinitylua_toggle) or ui.get(infinitylua_section) ~= "RageBot" then return end
+    if not ui.get(backtrack_shooting_checkbox) then return end
+
+    local local_player = entity.get_local_player()
+    if not local_player or not entity.is_alive(local_player) then return end
+
+    local weapon = entity.get_player_weapon(local_player)
+    if not weapon then return end
+    local next_attack = entity.get_prop(weapon, "m_flNextPrimaryAttack")
+    if not next_attack or next_attack > globals.curtime() then return end
+
+    local enemies = entity.get_players(true)
+    if not enemies then return end
+
+    local eye_pos = {client.eye_position()}
+    if not eye_pos[1] then return end
+
+    for _, enemy in ipairs(enemies) do
+        if not entity.is_alive(enemy) then goto continue end
+
+        local backtrack_records = entity.get_records(enemy)
+        if not backtrack_records or #backtrack_records == 0 then goto continue end
+
+        local best_record = nil
+        local best_fov = 180
+        local best_hitgroup = nil
+        local best_damage = 0
+
+        for _, record in ipairs(backtrack_records) do
+            local sim_time = record.simulation_time
+            if not sim_time or sim_time == 0 then goto skip_record end
+
+            local origin = record.origin
+            if not origin or not origin[1] then goto skip_record end
+
+            local hitboxes = record.hitboxes
+            if not hitboxes then goto skip_record end
+
+            for hitgroup, hitbox_pos in pairs(hitboxes) do
+                if not hitbox_pos[1] then goto skip_hitbox end
+
+                local trace = client.trace_line(eye_pos[1], eye_pos[2], eye_pos[3], hitbox_pos[1], hitbox_pos[2], hitbox_pos[3], local_player)
+                if trace.fraction > 0.98 then
+                    local dx = hitbox_pos[1] - eye_pos[1]
+                    local dy = hitbox_pos[2] - eye_pos[2]
+                    local dz = hitbox_pos[3] - eye_pos[3]
+                    local dist = math.sqrt(dx^2 + dy^2 + dz^2)
+                    if dist == 0 then goto skip_hitbox end
+
+                    local fov = math.deg(math.acos((dx * dx + dy * dy) / (dist * dist)))
+                    if fov < best_fov then
+                        local damage = client.calculate_damage(enemy, hitgroup, hitbox_pos[1], hitbox_pos[2], hitbox_pos[3])
+                        if damage and damage > 0 then
+                            best_fov = fov
+                            best_record = record
+                            best_hitgroup = hitgroup
+                            best_damage = damage
+                        end
+                    end
+                end
+
+                ::skip_hitbox::
+            end
+
+            ::skip_record::
+        end
+
+        if best_record and best_damage > 0 then
+            client.exec(string.format("ragebot override backtrack %d %f", enemy, best_record.simulation_time))
+            client.exec("+attack")
+            client.exec("-attack")
+            break
+        end
+
+        ::continue::
+    end
+end
+
+
+local function buybot()
+    if not ui.get(infinitylua_toggle) or ui.get(infinitylua_section) ~= "BuyBot" then return end
+    if not ui.get(buybot_enabled) then return end
+
+    local local_player = entity.get_local_player()
+    if not local_player then return end
+
+    local team = entity.get_prop(local_player, "m_iTeamNum")
+    local is_ct = team == 3
+
+    local primary = ui.get(primary_weapon)
+    if primary == "Auto-Sniper" then
+        if is_ct then
+            client.exec("buy scar20")
+        else
+            client.exec("buy g3sg1")
+        end
+    elseif primary == "AWP" then
+        client.exec("buy awp")
+    elseif primary == "SSG-08" then
+        client.exec("buy ssg08")
+    end
+
+ 
+    local secondary = ui.get(secondary_weapon)
+    if secondary == "Deagle" then
+        client.exec("buy deagle")
+    elseif secondary == "Dual Berettas" then
+        client.exec("buy elite")
+    elseif secondary == "R8 Revolver" then
+        client.exec("buy revolver")
+    elseif secondary == "Tec-9" then
+        client.exec("buy tec9")
+    end
+
+
+    local selected_utilities = ui.get(utility)
+    for _, util in ipairs(selected_utilities) do
+        if util == "Full Armor" then
+            client.exec("buy vesthelm")
+        elseif util == "Regular Armor" then
+            client.exec("buy vest")
+        elseif util == "Molotov" then
+            client.exec("buy molotov")
+        elseif util == "HE Grenade" then
+            client.exec("buy hegrenade")
+        elseif util == "Smoke" then
+            client.exec("buy smokegrenade")
+        end
+    end
+end
+
+
+local flick_state = 0
+local last_flick_time = 0
+local flick_history = {}
+local flick_counter = 0
+local max_history = 5
+local base_frequency = 0.08
+local yaw_adjustment = 0
+local flick_phase = 1
+local last_speed = 0
+local phase_timer = 0
+local function handle_flick_exploit()
+    if not ui.get(infinitylua_toggle) then return end
+    if ui.get(infinitylua_section) ~= "Anti-Aim" then return end
+    if not ui.get(flick_exploit_checkbox) then return end
+    
+    local player = entity.get_local_player()
+    if not player then return end
+    if not entity.is_alive(player) then return end
+    
+    local current_time = globals.realtime()
+    if current_time - last_flick_time < base_frequency then return end
+    
+    local vel = entity.get_prop(player, "m_vecVelocity")
+    local speed = vel and math.sqrt(vel[1]^2 + vel[2]^2) or 0
+    local speed_delta = math.abs(speed - last_speed)
+    last_speed = speed
+    
+    table.insert(flick_history, speed_delta)
+    if #flick_history > max_history then
+        table.remove(flick_history, 1)
+    end
+    
+    local avg_speed_delta = 0
+    for _, delta in ipairs(flick_history) do
+        avg_speed_delta = avg_speed_delta + delta
+    end
+    avg_speed_delta = avg_speed_delta / #flick_history
+    
+    local dynamic_frequency = base_frequency
+    if avg_speed_delta > 50 then
+        dynamic_frequency = dynamic_frequency * 0.8
+    elseif avg_speed_delta < 20 then
+        dynamic_frequency = dynamic_frequency * 1.2
+    end
+    
+    if current_time - phase_timer > 2 then
+        flick_phase = (flick_phase % 3) + 1
+        phase_timer = current_time
+    end
+    
+    local yaw = 0
+    if flick_phase == 1 then
+        local angles = {60, -60, 90, -90}
+        yaw = angles[math.random(1, #angles)]
+    elseif flick_phase == 2 then
+        local angles = {120, -120, 150, -150}
+        yaw = angles[math.random(1, #angles)]
+    else
+        local angles = {45, -45, 135, -135}
+        yaw = angles[math.random(1, #angles)]
+    end
+    
+    flick_counter = flick_counter + 1
+    if flick_counter % 3 == 0 then
+        yaw_adjustment = math.random(-30, 30)
+    end
+    
+    yaw = normalize_yaw(yaw + yaw_adjustment)
+    
+    local tick_interval = globals.tickinterval()
+    local sim_time = entity.get_prop(player, "m_flSimulationTime") or 0
+    local time_factor = (sim_time % 1) * 10
+    yaw = normalize_yaw(yaw + time_factor)
+    
+    if speed > 150 then
+        yaw = normalize_yaw(yaw + (vel[1] > 0 and 20 or -20))
+    end
+    
+    client.exec(string.format("aa override yaw %f", yaw))
+    last_flick_time = current_time
+end
+
+
+client.set_event_callback("aim_fire", function(e)
+    if not ui.get(infinitylua_toggle) or ui.get(infinitylua_section) ~= "RageBot" then return end
+    
+    local entindex = e.target
+    
+    if ui.get(resolver_checkbox) then
+        local mode = ui.get(resolver_mode)
+        local resolved_yaw = mode == "Neverlose" and resolver_neverlose(entindex) or resolver_gamesense(entindex)
+        if resolved_yaw ~= 0 then
+            client.exec(string.format("ragebot override yaw %d %f", entindex, resolved_yaw))
+        end
+    end
+    
+    if ui.get(predictor_checkbox) then
+        local mode = ui.get(predictor_mode)
+        local predicted_pos = mode == "Neverlose" and predictor_neverlose(entindex) or predictor_gamesense(entindex)
+        if predicted_pos.x then
+            client.exec(string.format("ragebot override pos %d %f %f %f", entindex, predicted_pos.x, predicted_pos.y, predicted_pos.z))
+        end
+    end
+end)
+
+
+client.set_event_callback("aim_miss", function(e)
+    if not ui.get(resolver_checkbox) then return end
+    local entindex = e.target
+    init_resolver_data(entindex)
+    resolver_data[entindex].misses = resolver_data[entindex].misses + 1
+end)
+
+
+client.set_event_callback("pre_frame", function()
+    backtrack_shooting()
+end)
+
+
+client.set_event_callback("pre_frame", function()
+    handle_flick_exploit()
+end)
+
+
+client.set_event_callback("round_start", function()
+    if not ui.get(infinitylua_toggle) or ui.get(infinitylua_section) ~= "BuyBot" then return end
+    if not ui.get(buybot_enabled) then return end
+
+
+    client.delay_call(0.5, buybot)
+end)
